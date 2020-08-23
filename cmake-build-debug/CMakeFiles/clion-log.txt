@@ -1,0 +1,19 @@
+"/Users/jeromeraymond/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jeromeraymond/CLionProjects/cryptonote
+CMake Error at CMakeLists.txt:7 (set_property):
+  set_property could not find TARGET daemon.  Perhaps it has not yet been
+  created.
+
+
+CMake Warning (dev) at CMakeLists.txt:9 (set):
+  implicitly converting 'TYPE' to 'STRING' type.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Git: /usr/bin/git
+CMake Warning in CMakeLists.txt:
+  CMAKE_SKIP_INSTALL_RULES was enabled even though installation rules have
+  been specified
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jeromeraymond/CLionProjects/cryptonote/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/jeromeraymond/CLionProjects/cryptonote/cmake-build-debug/CMakeFiles/CMakeError.log".
